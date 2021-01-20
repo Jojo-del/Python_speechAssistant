@@ -1,8 +1,8 @@
 {
   "email": {
     "loginData": {
-      "fromEmail": "knowun520@gmail.com",
-      "password": "thepassword520"
+      "fromEmail": "",
+      "password": ""
     },
     "smtp": {
       "host": "smtp.gmail.com",
@@ -13,13 +13,7 @@
       "encoding": "utf8"
     },
     "contacts": {
-      "mom": "<elisabeth.petautschnig@gmx.at>",
-      "me school": "<johannes.petautschnig@htl-klu.at>",
-      "me private": "<johannes.p2005@gmail.com>",
-      "mikey": "<michael.roscher@htl-klu.at>",
-      "jojo": "<johannes.marcher@htl-klu.at>",
-      "simon": "<simon.schellander@htl-klu.at>",
-      "darling": "<emilykaiser630@gmail.com"
+      
     }
 
 
