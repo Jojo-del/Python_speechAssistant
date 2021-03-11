@@ -11,9 +11,6 @@ def scanString(sourceString):
     if 'twitter' in sourceString:
         webbrowser.open('https://twitter.com')
 
-    if 'trump' in sourceString and 'twitter' in sourceString:
-        webbrowser.open('https://twitter.com/realdonaldtrump')
-
     elif 'tesla stock' in sourceString:
         webbrowser.open('https://de.tradingview.com/chart/0yUk04Bf/')
 
@@ -28,9 +25,6 @@ def scanString(sourceString):
 
     elif 'bitcoin' in sourceString and 'dollar' in sourceString:
         print(f'1 USD <-> {bitcoin.getUSDBitcoins()} Bitcoin  || {bitcoin.getTime()}')
-
-    elif 'school' in sourceString and 'email' in sourceString:
-        webbrowser.open('https://outlook.office365.com/mail/inbox/id/AAQkADhiZTUxZDY4LWJlNmYtNDk5OS04NzZkLWNhNmVlNGZmYTYyOQAQAM%2FJ%2FzQGNShDgl2HfKXLNpM%3D?state=0')
 
     elif 'mail' in sourceString and 'open' in sourceString:
         webbrowser.open('https://mail.google.com/mail/u/0/#inbox')
